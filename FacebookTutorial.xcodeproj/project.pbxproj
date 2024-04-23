@@ -11,6 +11,7 @@
 		0721D8DB2BD7D3930087D17B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0721D8DA2BD7D3930087D17B /* ContentView.swift */; };
 		0721D8DD2BD7D3950087D17B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0721D8DC2BD7D3950087D17B /* Assets.xcassets */; };
 		0721D8E02BD7D3950087D17B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0721D8DF2BD7D3950087D17B /* Preview Assets.xcassets */; };
+		0721D8FA2BD7D4A40087D17B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0721D8F92BD7D4A40087D17B /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0721D8DA2BD7D3930087D17B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0721D8DC2BD7D3950087D17B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0721D8DF2BD7D3950087D17B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0721D8F92BD7D4A40087D17B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,11 @@
 		0721D8D72BD7D3930087D17B /* FacebookTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				0721D8E62BD7D3C70087D17B /* App */,
+				0721D8EA2BD7D3FE0087D17B /* Core */,
+				0721D8EB2BD7D4020087D17B /* Model */,
+				0721D8EC2BD7D4070087D17B /* Service */,
+				0721D8ED2BD7D40D0087D17B /* Utils */,
 				0721D8D82BD7D3930087D17B /* FacebookTutorialApp.swift */,
 				0721D8DA2BD7D3930087D17B /* ContentView.swift */,
 				0721D8DC2BD7D3950087D17B /* Assets.xcassets */,
@@ -65,6 +72,130 @@
 				0721D8DF2BD7D3950087D17B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0721D8E62BD7D3C70087D17B /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0721D8EA2BD7D3FE0087D17B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0721D8EE2BD7D4360087D17B /* Authentification */,
+				0721D8EF2BD7D43C0087D17B /* Components */,
+				0721D8F02BD7D4410087D17B /* CreatePost */,
+				0721D8F12BD7D4460087D17B /* Feed */,
+				0721D8F22BD7D4490087D17B /* Friends */,
+				0721D8F32BD7D44D0087D17B /* Marketplace */,
+				0721D8F42BD7D4540087D17B /* Menu */,
+				0721D8F52BD7D4570087D17B /* Profile */,
+				0721D8F62BD7D45B0087D17B /* Root */,
+				0721D8F82BD7D46D0087D17B /* Tabbar */,
+				0721D8F72BD7D45E0087D17B /* Video */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0721D8EB2BD7D4020087D17B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0721D8EC2BD7D4070087D17B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0721D8ED2BD7D40D0087D17B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0721D8EE2BD7D4360087D17B /* Authentification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentification;
+			sourceTree = "<group>";
+		};
+		0721D8EF2BD7D43C0087D17B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0721D8F02BD7D4410087D17B /* CreatePost */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CreatePost;
+			sourceTree = "<group>";
+		};
+		0721D8F12BD7D4460087D17B /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		0721D8F22BD7D4490087D17B /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		0721D8F32BD7D44D0087D17B /* Marketplace */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Marketplace;
+			sourceTree = "<group>";
+		};
+		0721D8F42BD7D4540087D17B /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		0721D8F52BD7D4570087D17B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		0721D8F62BD7D45B0087D17B /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		0721D8F72BD7D45E0087D17B /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		0721D8F82BD7D46D0087D17B /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				0721D8F92BD7D4A40087D17B /* MainTabView.swift */,
+			);
+			path = Tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +270,7 @@
 			files = (
 				0721D8DB2BD7D3930087D17B /* ContentView.swift in Sources */,
 				0721D8D92BD7D3930087D17B /* FacebookTutorialApp.swift in Sources */,
+				0721D8FA2BD7D4A40087D17B /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
